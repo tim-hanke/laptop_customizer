@@ -10,6 +10,7 @@ export default class Cartlist extends Component {
           <CartItem
             feature={feature}
             idx={idx}
+            key={feature}
             selected={this.props.selected}
           />
         ))}

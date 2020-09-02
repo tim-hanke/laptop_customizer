@@ -15,6 +15,7 @@ class Feature extends Component {
             <FeatureOption
               feature={feature}
               item={item}
+              key={item.name}
               selected={this.props.selected}
               handleUpdate={(feature, newValue) =>
                 this.props.handleUpdate(feature, newValue)

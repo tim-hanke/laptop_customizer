@@ -12,6 +12,7 @@ class FeatureList extends Component {
             features={this.props.features}
             feature={feature}
             idx={idx}
+            key={feature}
             selected={this.props.selected}
             handleUpdate={(feature, newValue) =>
               this.props.handleUpdate(feature, newValue)
