@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import FeatureOption from "../FeatureOption/FeatureOption";
+import "./Feature.css";
 
 class Feature extends Component {
   render() {

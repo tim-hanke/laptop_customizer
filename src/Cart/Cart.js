@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import CartList from "../CartList/CartList";
 import CartTotal from "../CartTotal/CartTotal";
+import "./Cart.css";
 
 class Cart extends Component {
   render() {

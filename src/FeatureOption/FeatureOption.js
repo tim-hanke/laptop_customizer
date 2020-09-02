@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import slugify from "slugify";
 import { USCurrencyFormat } from "../USCurrencyFormat/USCurrencyFormat";
+import "./FeatureOption.css";
 
 class FeatureOption extends Component {
   render() {
